@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {   
-    image(img 450,850);
+    image(img, 450,850);
     background(100,70,200);
     if (mouseIsPressed && mouseX > 450 && mouseX < 550 && mouseY > 100 && mouseY < 200) {
         background (200, 50, 66);
